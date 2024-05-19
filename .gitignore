@@ -3,3 +3,6 @@
 *.orig
 *.sw[a-z]
 \#*\#
+
+/recipes-to-repo.bat
+/recipes-to-bcomp.bat

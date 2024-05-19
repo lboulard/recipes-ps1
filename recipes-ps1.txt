@@ -1,0 +1,286 @@
+# Avoid repeating same root path
+ROOT=D:\Installs
+
+file "$LBPROGRAMS\busybox\latest.bat"                                  busybox
+file "$LBPROGRAMS\busybox\latest.ps1"                                  busybox
+
+file "$ROOT\7-zip\latest.bat"                                          7-Zip
+file "$ROOT\7-zip\latest.ps1"                                          7-Zip
+file "$ROOT\7-zip\7-Zip-zstd\latest.bat"                               7-Zip\7-Zip-zstd
+file "$ROOT\7-zip\7-Zip-zstd\latest.ps1"                               7-Zip\7-Zip-zstd
+file "$ROOT\7-zip\7-Zip-zstd\install-codecs.bat"                       7-Zip\7-Zip-zstd
+
+file "$ROOT\dev\C++\llvm\latest.bat"                                   llvm
+file "$ROOT\dev\C++\llvm\latest.ps1"                                   llvm
+file "$ROOT\dev\C++\llvm\Download LLVM releases.url"                   llvm
+file "$ROOT\dev\C++\llvm\hans-gpg-key-10.0.asc"                        llvm
+file "$ROOT\dev\C++\llvm\hans-gpg-key-11.0.asc"                        llvm
+
+file "$ROOT\dev\Python\latest.ps1"                                     Python
+file "$ROOT\dev\Python\latest-3.x.bat"                                 Python
+file "$ROOT\dev\Python\restore-links.bat"                              Python
+file "$ROOT\dev\Python\URL.txt"                                        Python
+file "$ROOT\dev\Python3.12\fix-broken-pip\install-pip.bat"             Python\fix-broken-pip
+
+file "$ROOT\dev\erlang\latest.bat"                                     erlang
+file "$ROOT\dev\erlang\latest.ps1"                                     erlang
+file "$ROOT\dev\erlang\Erlang Programming Language.url"                erlang
+file "$ROOT\dev\erlang\OTP Versions Tree.url"                          erlang
+
+file "$ROOT\dev\erlang\elixir\latest.bat"                              elixir
+file "$ROOT\dev\erlang\elixir\latest.ps1"                              elixir
+
+file "$ROOT\dev\git\latest.bat"                                        git
+file "$ROOT\dev\git\latest.ps1"                                        git
+file "$ROOT\dev\git\git-silent-install.bat"                            git
+file "$ROOT\dev\git\git-silent-install.inf"                            git
+file "$ROOT\dev\git\git-silent-install-openssl.inf"                    git
+file "$ROOT\dev\git\git-silent-install-winssl.inf"                     git
+file "$ROOT\dev\git\git-for-windows.url"                               git
+
+file "$ROOT\dev\git\git-lfs\latest.bat"                                git-lfs
+file "$ROOT\dev\git\git-lfs\latest.ps1"                                git-lfs
+file "$ROOT\dev\git\git-lfs\git-lfs-silent-install.bat"                git-lfs
+file "$ROOT\dev\git\git-lfs\git-lfs-silent-install.inf"                git-lfs
+file "$ROOT\dev\git\git-lfs\git-lfs.url"                               git-lfs
+
+file "$ROOT\dev\git\p4merge\download.bat"                              p4merge
+file "$ROOT\dev\git\p4merge\p4merge-silent-install.bat"                p4merge
+file "$ROOT\dev\git\p4merge\downloads.url"                             p4merge
+file "$ROOT\dev\git\p4merge\Helix Visual Client (P4V).url"             p4merge
+
+file "$ROOT\dev\git\gitea\latest.bat"                                  gitea
+file "$ROOT\dev\git\gitea\latest.ps1"                                  gitea
+file "$ROOT\dev\git\gitea\latest-tea.bat"                              gitea
+file "$ROOT\dev\git\gitea\latest-tea.ps1"                              gitea
+file "$ROOT\dev\git\gitea\Gitea-dl.url"                                gitea
+
+file "$ROOT\dev\go\latest.bat"                                         go
+file "$ROOT\dev\go\latest.ps1"                                         go
+file "$ROOT\dev\go\golang-silent-install.bat"                          go
+file "$ROOT\dev\go\golang-uninstall.bat"                               go
+file "$ROOT\dev\go\sdk-config.bat"                                     go
+file "$ROOT\dev\go\sdk-golang-install.bat"                             go
+file "$ROOT\dev\go\legacy\user-config.bat"                             go
+file "$ROOT\dev\go\legacy\user-golang-install.bat"                     go
+file "$ROOT\dev\go\zz_golang_env.bat"                                  go
+file "$ROOT\dev\go\README.md"                                          go
+
+file "$ROOT\dev\java\Azul\Azul Downloads.url"                          java
+file "$ROOT\dev\java\Azul\latest-azul.bat"                             java
+file "$ROOT\dev\java\Azul\latest-azul.ps1"                             java
+file "$ROOT\dev\java\Azul\deploy-azul.bat"                             java
+file "$ROOT\dev\java\Azul\deploy-azul.ps1"                             java
+file "$ROOT\dev\java\Azul\README.Azul.Zulu.txt"                        java
+
+file "$ROOT\dev\LaTeX\pandoc\latest.bat"                               pandoc
+file "$ROOT\dev\LaTeX\pandoc\latest.ps1"                               pandoc
+file "$ROOT\dev\LaTeX\pandoc\pandoc-silent-install.bat"                pandoc
+file "$ROOT\dev\LaTeX\pandoc\pandoc-silent-uninstall.bat"              pandoc
+file "$ROOT\dev\LaTeX\pandoc\Pandoc.url"                               pandoc
+file "$ROOT\dev\LaTeX\pandoc\Releases · jgm-pandoc.url"                pandoc
+
+file "$ROOT\dev\LaTeX\MiKTeX\latest.bat"                               MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\latest.ps1"                               MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\basic-miktex-silent-install.bat"          MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\basic-miktex-download-basic.bat"          MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\basic-miktex-download-complete.bat"       MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\miktexsetup-download-basic.bat"           MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\miktexsetup-download-complete.bat"        MiKTeX
+file "$ROOT\dev\LaTeX\MiKTeX\miktex-mirror.bat"                        MiKTeX
+
+file "$ROOT\dev\ninja\latest.bat"                                      ninja
+file "$ROOT\dev\ninja\latest.ps1"                                      ninja
+
+file "$ROOT\dev\msys2\latest.bat"                                      msys2
+file "$ROOT\dev\msys2\latest.ps1"                                      msys2
+file "$ROOT\dev\msys2\msys2-silent-install.bat"                        msys2
+file "$ROOT\dev\msys2\msys2-silent-uninstall.bat"                      msys2
+
+file "$ROOT\dev\ruby\latest-rb27.bat"                                  ruby
+file "$ROOT\dev\ruby\latest-rb27.ps1"                                  ruby
+file "$ROOT\dev\ruby\latest-rb31.bat"                                  ruby
+file "$ROOT\dev\ruby\latest-rb31.ps1"                                  ruby
+file "$ROOT\dev\ruby\latest-rb32.bat"                                  ruby
+file "$ROOT\dev\ruby\latest-rb32.ps1"                                  ruby
+file "$ROOT\dev\ruby\latest-rb33.bat"                                  ruby
+file "$ROOT\dev\ruby\latest-rb33.ps1"                                  ruby
+file "$ROOT\dev\ruby\Ruby27-silent-install.bat"                        ruby
+file "$ROOT\dev\ruby\Ruby31-silent-install.bat"                        ruby
+file "$ROOT\dev\ruby\Ruby32-silent-install.bat"                        ruby
+file "$ROOT\dev\ruby\Ruby33-silent-install-default.bat"                ruby
+
+file "$ROOT\dev\zig\latest.bat"                                        zig
+file "$ROOT\dev\zig\latest.ps1"                                        zig
+file "$ROOT\dev\zig\latest-dev.bat"                                    zig
+file "$ROOT\dev\zig\latest-zls.bat"                                    zig
+file "$ROOT\dev\zig\latest-zls.ps1"                                    zig
+file "$ROOT\dev\zig\deploy.bat"                                        zig
+file "$ROOT\dev\zig\deploy.ps1"                                        zig
+file "$ROOT\dev\zig\deploy-dev.bat"                                    zig
+file "$ROOT\dev\zig\Download Zig.url"                                  zig
+
+file "$ROOT\cmd\chezmoi\latest.bat"                                    chezmoi
+file "$ROOT\cmd\chezmoi\latest.ps1"                                    chezmoi
+file "$ROOT\cmd\chezmoi\install-chezmoi.bat"                           chezmoi
+file "$ROOT\cmd\chezmoi\twpayne-chezmoi.url"                           chezmoi
+file "$ROOT\cmd\chezmoi\www.chezmoi.io.url"                            chezmoi
+
+file "$ROOT\cmd\clink\latest-clink.bat"                                clink
+file "$ROOT\cmd\clink\latest-clink.ps1"                                clink
+file "$ROOT\cmd\clink\latest-dirx.bat"                                 clink
+file "$ROOT\cmd\clink\latest-dirx.ps1"                                 clink
+file "$ROOT\cmd\clink\install-clink.bat"                               clink
+file "$ROOT\cmd\clink\install-dirx.bat"                                clink
+
+file "$LBPROGRAMS\clink_modules\clink_modules.txt"                     clink_modules
+file "$LBPROGRAMS\clink_modules\clink-installscripts.bat"              clink_modules
+file "$LBPROGRAMS\clink_modules\mk-z-symlinks.bat"                     clink_modules
+
+file "$ROOT\cmd\ConEmu\latest.bat"                                     ConEmu
+file "$ROOT\cmd\ConEmu\latest.ps1"                                     ConEmu
+
+file "$ROOT\cmd\hashcat\latest.bat"                                    hashcat
+file "$ROOT\cmd\hashcat\latest.ps1"                                    hashcat
+file "$ROOT\cmd\hashcat\hashcat-hashcat.url"                           hashcat
+
+file "$ROOT\cmd\initool\latest.bat"                                    initool
+file "$ROOT\cmd\initool\latest.ps1"                                    initool
+file "$ROOT\cmd\initool\install-initool.bat"                           initool
+file "$ROOT\cmd\initool\dbohdan-initool.url"                           initool
+
+file "$ROOT\cmd\lessmsi\latest.bat"                                    lessmsi
+file "$ROOT\cmd\lessmsi\latest.ps1"                                    lessmsi
+file "$ROOT\cmd\lessmsi\activescott-lessmsi.url"                       lessmsi
+file "$ROOT\cmd\lessmsi\lessmsi.activescott.com.url"                   lessmsi
+
+file "$ROOT\cmd\lz4\latest.bat"                                        lz4
+file "$ROOT\cmd\lz4\latest.ps1"                                        lz4
+file "$ROOT\cmd\lz4\install-lz4.bat"                                   lz4
+file "$ROOT\cmd\lz4\lz4.org.url"                                       lz4
+file "$ROOT\cmd\lz4\lz4-lz4.url"                                       lz4
+
+file "$ROOT\cmd\PowerShell-7\latest.bat"                               PowerShell-7
+file "$ROOT\cmd\PowerShell-7\latest.ps1"                               PowerShell-7
+file "$ROOT\cmd\PowerShell-7\PowerShell-silent-install.bat"            PowerShell-7
+file "$ROOT\cmd\PowerShell-7\silent-install.txt"                       PowerShell-7
+file "$ROOT\cmd\PowerShell-7\PowerShell-PowerShell.url"                PowerShell-7
+
+file "$ROOT\cmd\uncrustify\latest.bat"                                 uncrustify
+file "$ROOT\cmd\uncrustify\latest.ps1"                                 uncrustify
+file "$ROOT\cmd\uncrustify\install-uncrustify.bat"                     uncrustify
+file "$ROOT\cmd\uncrustify\Uncrustify - GitHub.url"                    uncrustify
+file "$ROOT\cmd\uncrustify\Uncrustify - SourceForge.url"               uncrustify
+
+file "$ROOT\cmd\watchexec\latest.bat"                                  watchexec
+file "$ROOT\cmd\watchexec\latest.ps1"                                  watchexec
+
+file "$ROOT\cmd\WezTerm\latest.bat"                                    WezTerm
+file "$ROOT\cmd\WezTerm\latest.ps1"                                    WezTerm
+file "$ROOT\cmd\WezTerm\gen-wezterm-inf.bat"                           WezTerm
+file "$ROOT\cmd\WezTerm\gen-wezterm-inf.ps1"                           WezTerm
+file "$ROOT\cmd\WezTerm\gen-wezterm-reg.bat"                           WezTerm
+file "$ROOT\cmd\WezTerm\gen-wezterm-reg.ps1"                           WezTerm
+
+file "$ROOT\cmd\Win32-OpenSSH\latest.bat"                              Win32-OpenSSH
+file "$ROOT\cmd\Win32-OpenSSH\latest.ps1"                              Win32-OpenSSH
+file "$ROOT\cmd\Win32-OpenSSH\msi-install-client.bat"                  Win32-OpenSSH
+file "$ROOT\cmd\Win32-OpenSSH\msi-remove-server.bat"                   Win32-OpenSSH
+file "$ROOT\cmd\Win32-OpenSSH\windows-git-openssh.bat"                 Win32-OpenSSH
+file "$ROOT\cmd\Win32-OpenSSH\Windows-OpenSSH.md"                      Win32-OpenSSH
+
+file "$ROOT\cmd\wt\latest.bat"                                         wt
+file "$ROOT\cmd\wt\latest.ps1"                                         wt
+file "$ROOT\cmd\wt\backup.bat"                                         wt
+file "$ROOT\cmd\wt\backup.ps1"                                         wt
+file "$ROOT\cmd\wt\install-latest-wt.bat"                              wt
+file "$ROOT\cmd\wt\wt-icons.zip"                                       wt
+file "$ROOT\cmd\wt\roaming-20240605.zip"                               wt
+file "$ROOT\cmd\wt\settings-20240605.json"                             wt
+file "$ROOT\cmd\wt\LocalState.lnk"                                     wt
+file "$ROOT\cmd\wt\RoamingState.lnk"                                   wt
+file "$ROOT\cmd\wt\README.txt"                                         wt
+file "$ROOT\cmd\wt\README.txt.in"                                      wt
+file "$ROOT\cmd\wt\README.txt.in.bat"                                  wt
+
+file "$ROOT\cmd\zstd\latest.bat"                                       zstd
+file "$ROOT\cmd\zstd\latest.ps1"                                       zstd
+file "$ROOT\cmd\zstd\install-zstd.bat"                                 zstd
+file "$ROOT\cmd\zstd\facebook-zstd.url"                                zstd
+file "$ROOT\cmd\zstd\Zstandard.url"                                    zstd
+
+file "$ROOT\editors\emacs\latest.bat"                                  emacs
+file "$ROOT\editors\emacs\latest.ps1"                                  emacs
+
+file "$ROOT\editors\kate\nightly.bat"                                  kate
+file "$ROOT\editors\kate\nightly.ps1"                                  kate
+file "$ROOT\editors\kate\stable.bat"                                   kate
+file "$ROOT\editors\kate\stable.ps1"                                   kate
+file "$ROOT\editors\kate\Get Kate - Kate.url"                          kate
+
+file "$ROOT\editors\npp8\latest.bat"                                   notepad++
+file "$ROOT\editors\npp8\latest.ps1"                                   notepad++
+file "$ROOT\editors\npp8\npp8-silent-install.bat"                      notepad++
+file "$ROOT\editors\npp8\Notepad++ Home.url"                           notepad++
+
+file "$ROOT\editors\npp8\plugins\latest-DSpellCheck.bat"               notepad++\plugins
+file "$ROOT\editors\npp8\plugins\latest-DSpellCheck.ps1"               notepad++\plugins
+file "$ROOT\editors\npp8\plugins\latest-editorconfig.bat"              notepad++\plugins
+file "$ROOT\editors\npp8\plugins\latest-editorconfig.ps1"              notepad++\plugins
+file "$ROOT\editors\npp8\plugins\latest-NppExec.bat"                   notepad++\plugins
+file "$ROOT\editors\npp8\plugins\latest-NppExec.ps1"                   notepad++\plugins
+file "$ROOT\editors\npp8\plugins\install_x64.bat"                      notepad++\plugins
+file "$ROOT\editors\npp8\plugins\install_x86.bat"                      notepad++\plugins
+file "$ROOT\editors\npp8\plugins\extract_x64.bat"                      notepad++\plugins
+file "$ROOT\editors\npp8\plugins\extract_x86.bat"                      notepad++\plugins
+file "$ROOT\editors\npp8\plugins\Releases · d0vgan-nppexec.url"        notepad++\plugins
+file "$ROOT\editors\npp8\plugins\Releases · Predelnik-DSpellCheck.url" notepad++\plugins
+
+file "$ROOT\editors\scite\latest.bat"                                       scite
+file "$ROOT\editors\scite\latest.ps1"                                       scite
+file "$ROOT\editors\scite\Scintilla and SciTE.url"                          scite
+file "$ROOT\editors\scite\SciTE Text Editor Installer - EBSWIFT.COM.url"    scite
+
+file "$ROOT\editors\vim\latest.bat"                                    vim-lboulard
+file "$ROOT\editors\vim\latest.ps1"                                    vim-lboulard
+
+file "$ROOT\editors\VSCode\latest.bat"                                 VSCode
+file "$ROOT\editors\VSCode\latest.ps1"                                 VSCode
+file "$ROOT\editors\VSCode\deploy.bat"                                 VSCode
+file "$ROOT\editors\VSCode\deploy.ps1"                                 VSCode
+file "$ROOT\editors\VSCode\Visual Studio Code Updates.url"             VSCode
+
+file "$ROOT\Fonts\iosevka\latest.bat"                                  fonts-iosevka
+file "$ROOT\Fonts\iosevka\latest.ps1"                                  fonts-iosevka
+file "$ROOT\Fonts\iosevka\_iosevka.py"                                 fonts-iosevka
+file "$ROOT\Fonts\iosevka\cleanup.bat"                                 fonts-iosevka
+file "$ROOT\Fonts\iosevka\extract.bat"                                 fonts-iosevka
+file "$ROOT\Fonts\iosevka\install.bat"                                 fonts-iosevka
+file "$ROOT\Fonts\iosevka\reload-fonts.bat"                            fonts-iosevka
+file "$ROOT\Fonts\iosevka\Releases · be5invis_Iosevka.url"             fonts-iosevka
+
+file "$ROOT\Fonts\Cascadia\latest.bat"                                 fonts-Cascadia
+file "$ROOT\Fonts\Cascadia\latest.ps1"                                 fonts-Cascadia
+file "$ROOT\Fonts\Cascadia\README.txt"                                 fonts-Cascadia
+file "$ROOT\Fonts\Cascadia\README BEFORE INSTALL.txt"                  fonts-Cascadia
+file "$ROOT\Fonts\IBM Plex\latest.bat"                                 fonts-IBM-Plex
+file "$ROOT\Fonts\IBM Plex\latest.ps1"                                 fonts-IBM-Plex
+file "$ROOT\Fonts\Inter\latest.bat"                                    fonts-Inter
+file "$ROOT\Fonts\Inter\latest.ps1"                                    fonts-Inter
+
+file "$ROOT\graphics\irfanview\latest.bat"                             irfanview
+file "$ROOT\graphics\irfanview\latest.ps1"                             irfanview
+file "$ROOT\graphics\irfanview\IrfanView.url"                          irfanview
+
+file "$ROOT\players\VLC\latest.bat"                                    VLC
+file "$ROOT\players\VLC\latest.ps1"                                    VLC
+
+file "$ROOT\shell\PowerToys\latest.bat"                                PowerToys
+file "$ROOT\shell\PowerToys\latest.ps1"                                PowerToys
+
+file "$ROOT\WWW\caddy\latest.bat"                                      Caddy
+file "$ROOT\WWW\caddy\latest.ps1"                                      Caddy
+
+file "$ROOT\WWW\Vivaldi\latest.bat"                                    Vivaldi
+file "$ROOT\WWW\Vivaldi\latest.ps1"                                    Vivaldi
+file "$ROOT\WWW\Vivaldi\Vivaldi Browser — Windows.url"                 Vivaldi
